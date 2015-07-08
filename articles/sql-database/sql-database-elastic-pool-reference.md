@@ -25,7 +25,7 @@ This reference provides links and details to elastic pool articles and programma
 
 ## Overview
 
-An elastic pool is a collection of database throughput units (DTUs), and storage (GBs) that are shared by multiple databases. Elastic databases can be added to, and removed from the pool at any time. Elastic databases in the pool utilize only the resources they require from the pool freeing up available resources for only the active databases that need them. For assistance in determining if your databases would benefit in an elastic database pool, see [Price and performance considerations for an elastic database pool](sql-database-elastic-pool-guidance.md). 
+An elastic database pool is a collection of resources - database throughput units (DTUs) and storage (GBs) - that are shared by multiple databases. Databases can be added to, and removed from the pool at any time. Databases in a pool are referred to as elastic databases as they utilize only the DTUs they require from the pool on a moment by moment basis, freeing up resources for use by other active databases. For assistance in determining if your databases would benefit in an elastic database pool, see [Price and performance considerations for an elastic database pool](sql-database-elastic-pool-guidance.md). 
 
 
 
@@ -61,7 +61,7 @@ The following articles will help you get started using elastic databases and ela
 
 
 ## Namespace and endpoint details
-An elastic pool is an ARM resource of type “ElasticPool” in the Microsoft Azure SQL Database.
+An elastic pool is an ARM resource of type “ElasticPool” in the Microsoft Azure SQL Database namespace.
 
 - **namespace**: Microsoft.Sql/ElasticPool
 - **secondary-endpoint** for REST API calls (Azure resource manager): https://management.azure.com
